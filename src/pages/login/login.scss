@@ -1,0 +1,21 @@
+page-login {
+
+    ////animation
+    .moto{
+        width: 40%;
+        height: auto;
+        position: absolute;
+        left: -380px;
+        animation-name: drive;
+        animation-duration: 4s;
+        animation-fill-mode: backwards;
+        animation-delay: 3.5s;
+        margin-top: 8%;
+    }
+    
+    @keyframes drive{
+        from{ transform: translateX(200px) }
+        to{ transform: translateX(750px)}
+     }
+    }
+    
